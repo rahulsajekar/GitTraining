@@ -28,6 +28,9 @@ git add --------> || git commit--->||  git push ----->   ||
 11) git diff <branch 1 name> <branch 2 name> --> Shows difference between two branches file to file
 12) git show <commit hash code> --> shows commit details of commit hash code
 13) git show <commit hash code> : <file name> --> shows content of file during that commit
+14) git checkout <commit hash code> --> switch to state during that commit (Jumping to any state of system)
+15) git checkout main --> switch return back to current state
+16) git reflog --> refernce or record of all commits including all checkout commits
 
 ### Connecting Github using SSH key from new Device
 1) Generate SSH key :  
