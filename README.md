@@ -37,6 +37,7 @@ git add --------> || git commit--->||  git push ----->   ||
 4) Copy SSH key to Clipboard
     clip < ~/.ssh/id_rsa.pub
 5) Add SSH key to GitHub Account
+    
     GitHub Profile Settings -> SSH and GPG key -> new SSH key -> paste SSH key
 
 ### Connecting to Remote Repository
