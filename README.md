@@ -19,12 +19,12 @@ git add --------> || git commit--->||  git push ----->   ||
 8) git checkout branchName -> switch to another Branch
 9) git checkout -b branchName -> create new branch and switched to that branch
 10) git log --> shows the commit history
-	10A) git log -2 --> shows two most recent commits
-	10B) git log --author=rahul --> shows all commits made by rahul
-	10C) git log --before=2021-02-25 --> shows all commits made before date
-	10D) git log --after=2021-02-25 --> shows all commits made after date
-	10E) git log --stat --> shows changes made in every file
-	10F) git log --oneline --> Shows all commits in one line
+	- git log -2 --> shows two most recent commits
+	- git log --author=rahul --> shows all commits made by rahul
+	- git log --before=2021-02-25 --> shows all commits made before date
+	- git log --after=2021-02-25 --> shows all commits made after date
+	- git log --stat --> shows changes made in every file
+	- git log --oneline --> Shows all commits in one line
 11) git diff <branch 1 name> <branch 2 name> --> Shows difference between two branches file to file
 
 // Connecting Github using SSH key from new Device
