@@ -26,6 +26,8 @@ git add --------> || git commit--->||  git push ----->   ||
 	- git log --stat --> shows changes made in every file
 	- git log --oneline --> Shows all commits in one line
 11) git diff <branch 1 name> <branch 2 name> --> Shows difference between two branches file to file
+12) git show <commit hash code> --> shows commit details of commit hash code
+13) git show <commit hash code> : <file name> --> shows content of file during that commit
 
 ### Connecting Github using SSH key from new Device
 1) Generate SSH key :  
