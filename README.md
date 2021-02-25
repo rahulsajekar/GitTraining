@@ -40,7 +40,7 @@ git add --------> || git commit--->||  git push ----->   ||
     GitHub Profile Settings -> SSH and GPG key -> new SSH key -> paste SSH key
 
 ## Connecting to Remote Repository
-1) Add remote repository as a main
+1) Add remote repository as a main \n
     git remote add origin <github repo url>
 2) Push to remote repository
     git push -u origin main
