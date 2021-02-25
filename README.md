@@ -28,27 +28,27 @@ git add --------> || git commit--->||  git push ----->   ||
 11) git diff <branch 1 name> <branch 2 name> --> Shows difference between two branches file to file
 
 ### Connecting Github using SSH key from new Device
-1) Generate SSH key
+1) Generate SSH key :  
         ssh-keygen -t rsa -b 4096 -C "rahulsajekar93@gmail.com"
-2) Create agent
+2) Create agent :  
         eval `ssh-agent -s`
-3) Add SSH key to agent
+3) Add SSH key to agent :  
         ssh-add ~/.ssh/id_rsa
-4) Copy SSH key to Clipboard
+4) Copy SSH key to Clipboard :  
         clip < ~/.ssh/id_rsa.pub
-5) Add SSH key to GitHub Account
+5) Add SSH key to GitHub Account :  
         GitHub Profile Settings -> SSH and GPG key -> new SSH key -> paste SSH key
 
 ### Connecting to Remote Repository
-1) Add remote repository as a main
+1) Add remote repository as a main :  
     git remote add origin <github repo url>
-2) Push to remote repository
+2) Push to remote repository :  
     git push -u origin main
 
 ### Creating and Pushing in New Branch
-1) Create a New Branch
+1) Create a New Branch :  
 	git checkout -b newBranch
-2) Pushing to new Branch
+2) Pushing to new Branch :  
 	git push -u origin newBranch
 
 
