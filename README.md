@@ -2,13 +2,13 @@
 Practice of GIT fundamental concepts.
 Git is used for Version Control.
 
-// Git process
+## Git process
 Working Directory ||  Staging Area ||  Local repository  ||   Remote repository
 
 git add --------> || git commit--->||  git push ----->   ||
 
 
-// Commands
+## Commands
 1) git init -> Initialize the empty repository 
 2) git status -> shows status of all files
 3) git add <filename> -> track the file
@@ -27,7 +27,7 @@ git add --------> || git commit--->||  git push ----->   ||
 	- git log --oneline --> Shows all commits in one line
 11) git diff <branch 1 name> <branch 2 name> --> Shows difference between two branches file to file
 
-// Connecting Github using SSH key from new Device
+## Connecting Github using SSH key from new Device
 1) Generate SSH key
     ssh-keygen -t rsa -b 4096 -C "rahulsajekar93@gmail.com"
 2) Create agent
@@ -39,13 +39,13 @@ git add --------> || git commit--->||  git push ----->   ||
 5) Add SSH key to GitHub Account
     GitHub Profile Settings -> SSH and GPG key -> new SSH key -> paste SSH key
 
-// Connecting to Remote Repository
+## Connecting to Remote Repository
 1) Add remote repository as a main
     git remote add origin <github repo url>
 2) Push to remote repository
     git push -u origin main
 
-// Creating and Pushing in New Branch
+## Creating and Pushing in New Branch
 1) Create a New Branch
 	git checkout -b newBranch
 2) Pushing to new Branch
